@@ -1,0 +1,36 @@
+/* Start Global Rules */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #111;
+}
+/* End Global Rules */
+
+.main {
+  max-width: 400px;
+}
+
+.square {
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  width: 1rem;
+  height: 1rem;
+  margin: 2px;
+  transition: 2s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}
